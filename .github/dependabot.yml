@@ -15,11 +15,6 @@ updates:
     schedule:
       interval: "weekly"
 
-  - package-ecosystem: "composer"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
