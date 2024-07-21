@@ -1,0 +1,192 @@
+{
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.guides.bracketPairs": true,
+  "editor.rulers": [120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
+  },
+  "markdown.extension.toc.unorderedList.marker": "*",
+  "markdownlint.run": "onSave",
+  "markdownlint.config": {
+    "MD010": false,
+    "MD025": false,
+    "MD033": false,
+    "MD034": false
+  },
+  "markdown.extension.print.theme": "dark",
+  "markdown.copyFiles.destination": {
+    "**/*": "../media/img/img.${fileExtName}"
+  },
+  "markdown-preview-enhanced.codeBlockTheme": "solarized-light.css",
+  "markdown-preview-enhanced.enablePreviewZenMode": true,
+  "markdown-preview-enhanced.enableScriptExecution": true,
+  "markdown-preview-enhanced.frontMatterRenderingOption": "code block",
+  "markdown.extension.orderedList.marker": "one",
+  "[jsonc][json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.autoIndent": "advanced",
+    "files.insertFinalNewline": true
+  },
+  "json.schemaDownload.enable": true,
+  "[yaml][dockercompose]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true
+  },
+  "gitmoji.onlyUseCustomEmoji": true, // カスタマイズした絵文字のみ表示する
+  "gitmoji.addCustomEmoji": [
+    // 絵文字のカスタマイズ
+    {
+      "emoji": "✨",
+      "code": ":sparkles:",
+      "description": "記事修正"
+    },
+    {
+      "emoji": "🎉",
+      "code": ":tada:",
+      "description": "新記事の追加"
+    },
+    {
+      "emoji": "🐛",
+      "code": ":bug:",
+      "description": "バグ修正"
+    },
+    {
+      "emoji": "🚀",
+      "code": ":rocket:",
+      "description": "パフォーマンスや機能の改善"
+    },
+    {
+      "emoji": "♻️",
+      "code": ":recycle:",
+      "description": "リファクタリング"
+    },
+    {
+      "emoji": "📚",
+      "code": ":books:",
+      "description": "ドキュメント"
+    },
+    {
+      "emoji": "💚",
+      "code": ":green_heart:",
+      "description": "テストやCIの修正・改善"
+    },
+    {
+      "emoji": "👕",
+      "code": ":shirt:",
+      "description": "Lintエラーの修正やコードスタイルの修正"
+    },
+    {
+      "emoji": "🚿",
+      "code": ":shower:",
+      "description": "不要な機能・使われなくなった機能の削除"
+    },
+    {
+      "emoji": "🔧",
+      "code": ":wrench:",
+      "description": "依存パッケージなどのアップデート"
+    },
+    {
+      "emoji": "👷",
+      "code": ":construction_worker:",
+      "description": "ビルドシステムや外部依存関係の変更"
+    }
+  ],
+  "todo-tree.general.tags": [
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "REVIEW",
+    "OPTIMIZE",
+    "CHANGED",
+    "NOTE",
+    "WARNING"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#000000",
+    "background": "#2C7CFF",
+    "iconColor": "#24ff41",
+    "opacity": 45
+  },
+  "todo-tree.highlights.customHighlight": {
+    "HACK": {
+      "icon": "zap"
+    },
+    "FIXME": {
+      "icon": "flame",
+      "background": "#f11e1e",
+      "iconColor": "#f11e1e"
+    },
+    "TODO": {
+      "icon": "check-circle"
+    },
+    "XXX": {
+      "icon": "x-circle",
+      "background": "#f8831d",
+      "iconColor": "#f8831d"
+    },
+    "REVIEW": {
+      "icon": "pin"
+    },
+    "OPTIMIZE": {
+      "icon": "rocket",
+      "background": "#f8831d",
+      "iconColor": "#f8831d"
+    },
+    "CHANGED": {
+      "icon": "issue-reopened"
+    },
+    "NOTE": {
+      "icon": "thumbsup"
+    },
+    "WARNING": {
+      "icon": "alert",
+      "background": "#f11e1e",
+      "iconColor": "#f11e1e"
+    }
+  },
+  "cSpell.ignorePaths": [".vscode", ".devcontainer/devcontainer.json"],
+  "cSpell.words": [
+    "devcontainer",
+    "devcontainers",
+    "gitmoji",
+    "HATEOAS",
+    "htmx",
+    "todos",
+    "tomo1227"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#05848b",
+    "activityBar.background": "#05848b",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#fb84f4",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#05848b",
+    "statusBar.background": "#03555a",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#05848b",
+    "statusBarItem.remoteBackground": "#03555a",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#03555a",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#03555a99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  }
+}

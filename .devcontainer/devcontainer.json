@@ -1,0 +1,35 @@
+{
+  "name": "qiita",
+  "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+  "service": "devcontainer",
+  "workspaceFolder": "/workspace",
+  "features": {},
+  "forwardPorts": [8888],
+  "postCreateCommand": "sh .devcontainer/post_create.sh",
+  "postStartCommand": "sh .devcontainer/post_start.sh ${containerWorkspaceFolder}",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // markdown
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "shd101wyy.markdown-preview-enhanced",
+        "yzane.markdown-pdf",
+        "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+        // yaml, jsonc, json
+        "redhat.vscode-yaml",
+        "esbenp.prettier-vscode",
+        // Git関連
+        "eamodio.gitlens",
+        "seatonjiang.gitmoji-vscode",
+        // その他
+        "naumovs.color-highlight",
+        "Gruntfuggly.todo-tree",
+        "oderwat.indent-rainbow",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "kirozen.wordcounter"
+      ]
+    }
+  }
+}

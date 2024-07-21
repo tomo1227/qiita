@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  devcontainer:
+    hostname: ${PROJECT_NAME}
+    container_name: ${PROJECT_NAME}
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - .:/workspace:cached
+    ports:
+      - 8888:8888
+    tty: true
