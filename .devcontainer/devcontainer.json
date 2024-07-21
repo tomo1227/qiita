@@ -1,6 +1,6 @@
 {
   "name": "qiita",
-  "dockerComposeFile": ["../docker-compose.yml", "docker-compose.yml"],
+  "dockerComposeFile": ["../compose.yml", "compose.yml"],
   "service": "devcontainer",
   "workspaceFolder": "/workspace",
   "features": {},

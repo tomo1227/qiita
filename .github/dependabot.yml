@@ -16,11 +16,6 @@ updates:
       interval: "weekly"
 
   - package-ecosystem: "composer"
-    directory: "/.devcontainer"
-    schedule:
-      interval: "weekly"
-
-  - package-ecosystem: "composer"
     directory: "/"
     schedule:
       interval: "weekly"
