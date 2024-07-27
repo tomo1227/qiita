@@ -1,9 +1,8 @@
 {
   "name": "qiita",
-  "dockerComposeFile": ["../compose.yml", "compose.yml"],
+  "dockerComposeFile": ["../compose.yml"],
   "service": "devcontainer",
   "workspaceFolder": "/workspace",
-  "features": {},
   "forwardPorts": [8888],
   "postCreateCommand": "sh .devcontainer/post_create.sh",
   "postStartCommand": "sh .devcontainer/post_start.sh ${containerWorkspaceFolder}",

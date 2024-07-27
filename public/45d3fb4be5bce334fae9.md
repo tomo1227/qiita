@@ -3,7 +3,7 @@ title: 【Go言語】文字列とrune
 tags:
   - Go
 private: false
-updated_at: '2024-07-14T00:58:13+09:00'
+updated_at: '2024-07-26T07:56:02+09:00'
 id: 45d3fb4be5bce334fae9
 organization_url_name: null
 slide: false
@@ -140,6 +140,10 @@ func main() {
 	fmt.Printf("%c\n", r) // o
 }
 ```
+
+# スライド
+
+<script defer class="speakerdeck-embed" data-id="52b0d477d76f4bbc93c81c428a4afc80" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
 
 # 参考文献
 

@@ -2,14 +2,14 @@
 
 ## プレビュー
 
-```console
-$ npm start
+```sh
+npm start
 ```
 
 ## ローカルの更新
 
-```console
-$ npm run pull
+```sh
+npm run pull
 ```
 
 ## バージョン
