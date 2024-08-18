@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@qiita/qiita-cli": "^1.4.4"
+    "@qiita/qiita-cli": "^1.5.0"
   },
   "scripts": {
     "pull": "npx qiita pull --credential config",
